@@ -1,4 +1,4 @@
-baseURL = 'https://mapleminis.xyz/'
+baseURL = 'https://mapleminis.xyz'
 languageCode = 'en-AU'
 title = 'MapleMinis'
 publishDir = "docs"

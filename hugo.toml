@@ -1,6 +1,6 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-AU'
-title = 'My website'
+title = 'MapleMinis'
 
 # Google analytics code
 googleAnalytics = "G-xxxxxxxxx"
@@ -10,7 +10,7 @@ tag = 'tags'
 
 [params]
 # Meta description
-description = "A Tech Blog"
+description = "Exploring the world of miniatures."
 
 # Appearance settings
 theme = 'auto'
@@ -18,10 +18,9 @@ colorPalette = 'default'
 hideHeader = false
 
 # Intro on main page, content is markdown
-homeIntroTitle = 'Hi!'
+homeIntroTitle = 'Hello!'
 homeIntroContent = """
-I am an Italian Software Engineer with a strong foundation in computer science and a passion for solving complex problems.
-I am interested in a range of topics, including algorithms, distributed systems, databases, and information retrieval.
+I like to paint miniatures, sometimes I like to try my hand at creating them as well - I thought I'd share my journey here
 """
 
 # Collection to display on home
@@ -29,7 +28,7 @@ homeCollectionTitle = 'Posts'
 homeCollection = 'posts'
 
 # Lists parameters
-paginationSize = 100
+paginationSize = 10
 listSummaries = true
 listDateFormat = '2 Jan 2006'
 
@@ -40,17 +39,17 @@ showCurrentPage = true
 home = "Home"
 
 # Social icons
-[[params.social]]
-name = "linkedin"
-url = "https://www.linkedin.com/in/user/"
+#[[params.social]]
+#name = "linkedin"
+#url = "https://www.linkedin.com/in/user/"
 
-[[params.social]]
-name = "medium"
-url = "https://medium.com/@user"
+#[[params.social]]
+#name = "medium"
+#url = "https://medium.com/@user"
 
-[[params.social]]
-name = "github"
-url = "https://github.com/user"
+#[[params.social]]
+#name = "github"
+#url = "https://github.com/user"
 
 # Main menu pages
 [[params.menu]]
@@ -61,24 +60,24 @@ url = "/"
 name = "posts"
 url = "/posts"
 
-[[params.menu]]
-name = "about"
-url = "/about"
+#[[params.menu]]
+#name = "about"
+#url = "/about"
 
 # Syntax highlight on code blocks
-[markup]
-[markup.highlight]
+#[markup]
+##[markup.highlight]
 style = 'algol'
 
 # Giscus comments
-[params.giscus]
-enable = false
-repo = "user/repo"
-repoid = "repoId"
-category = "General"
-categoryid = "categoryId"
-mapping = "pathname"
-theme = "preferred_color_scheme"
+#[params.giscus]
+#enable = false
+#repo = "user/repo"
+#repoid = "repoId"
+#category = "General"
+#categoryid = "categoryId"
+#mapping = "pathname"
+#theme = "preferred_color_scheme"
 
 [module]
 [[module.imports]]

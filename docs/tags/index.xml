@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on MapleMinis</title>
-    <link>https://example.org/tags/</link>
+    <link>https://elliotmitchum.github.io/mapleminis/tags/</link>
     <description>Recent content in Tags on MapleMinis</description>
     <generator>Hugo</generator>
     <language>en-AU</language>
     <lastBuildDate>Fri, 02 May 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://elliotmitchum.github.io/mapleminis/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Database</title>
-      <link>https://example.org/tags/database/</link>
+      <link>https://elliotmitchum.github.io/mapleminis/tags/database/</link>
       <pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://example.org/tags/database/</guid>
+      <guid>https://elliotmitchum.github.io/mapleminis/tags/database/</guid>
       <description></description>
     </item>
     <item>
       <title>Java</title>
-      <link>https://example.org/tags/java/</link>
+      <link>https://elliotmitchum.github.io/mapleminis/tags/java/</link>
       <pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://example.org/tags/java/</guid>
+      <guid>https://elliotmitchum.github.io/mapleminis/tags/java/</guid>
       <description></description>
     </item>
   </channel>

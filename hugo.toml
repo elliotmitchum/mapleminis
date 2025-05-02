@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://elliotmitchum.github.io/mapleminis/'
 languageCode = 'en-AU'
 title = 'MapleMinis'
 publishDir = "docs"

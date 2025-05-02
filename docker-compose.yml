@@ -2,23 +2,10 @@ version: '3.8'
 
 services:
   app:
-    build: .
+    image: hugomods/hugo:exts-non-root
+    command: server -D
     ports:
-      - "1313:1313"
+      - "4000:1313"
     volumes:
       - ./:/src
-    environment:
-      - HUGO_ENV=development
-      - HUGO_WATCH=true
-    command: server --bind 0.0.0.0 --baseURL http://localhost:1313
-
-  dev:
-    build: .
-    volumes:
-      - ./:/src
-    environment:
-      - HUGO_ENV=development
-    stdin_open: true
-    tty: true
-    entrypoint: ["/bin/bash"]
-    command: -l 
+      - ./.hugo_cache:/tmp/hugo_cache

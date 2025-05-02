@@ -1,21 +1,27 @@
-baseURL = 'http://localhost:1313/'
-languageCode = 'en-us'
-title = 'My Hugo Blog'
-theme = 'typo'
+baseURL = 'https://example.org/'
+languageCode = 'en-AU'
+title = 'My website'
+
+# Google analytics code
+googleAnalytics = "G-xxxxxxxxx"
+
+[taxonomies]
+tag = 'tags'
 
 [params]
 # Meta description
-description = "My personal blog built with Hugo and Typo theme"
+description = "A Tech Blog"
 
 # Appearance settings
 theme = 'auto'
 colorPalette = 'default'
 hideHeader = false
 
-# Intro on main page
-homeIntroTitle = 'Welcome!'
+# Intro on main page, content is markdown
+homeIntroTitle = 'Hi!'
 homeIntroContent = """
-This is my personal blog built with Hugo and the Typo theme.
+I am an Italian Software Engineer with a strong foundation in computer science and a passion for solving complex problems.
+I am interested in a range of topics, including algorithms, distributed systems, databases, and information retrieval.
 """
 
 # Collection to display on home
@@ -23,7 +29,7 @@ homeCollectionTitle = 'Posts'
 homeCollection = 'posts'
 
 # Lists parameters
-paginationSize = 10
+paginationSize = 100
 listSummaries = true
 listDateFormat = '2 Jan 2006'
 
@@ -32,6 +38,19 @@ listDateFormat = '2 Jan 2006'
 enabled = true
 showCurrentPage = true
 home = "Home"
+
+# Social icons
+[[params.social]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/user/"
+
+[[params.social]]
+name = "medium"
+url = "https://medium.com/@user"
+
+[[params.social]]
+name = "github"
+url = "https://github.com/user"
 
 # Main menu pages
 [[params.menu]]
@@ -49,4 +68,18 @@ url = "/about"
 # Syntax highlight on code blocks
 [markup]
 [markup.highlight]
-style = 'algol' 
+style = 'algol'
+
+# Giscus comments
+[params.giscus]
+enable = false
+repo = "user/repo"
+repoid = "repoId"
+category = "General"
+categoryid = "categoryId"
+mapping = "pathname"
+theme = "preferred_color_scheme"
+
+[module]
+[[module.imports]]
+path = "github.com/tomfran/typo"

@@ -20,4 +20,5 @@ services:
       - HUGO_ENV=development
     stdin_open: true
     tty: true
-    command: /bin/bash 
+    entrypoint: ["/bin/bash"]
+    command: -l 

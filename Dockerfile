@@ -14,11 +14,10 @@ RUN mkdir -p /src/content /src/layouts /src/static
 COPY . .
 
 # Install the Typo theme
-RUN git submodule add --depth=1 https://github.com/tomfran/typo.git themes/typo
 RUN git submodule update --init --recursive
 
 # Expose the default Hugo port
-# EXPOSE 1313
+EXPOSE 1313
 
 # Default command - can be overridden by docker-compose
-# CMD ["server", "--bind", "0.0.0.0", "--baseURL", "http://localhost:1313"] 
+CMD ["server", "--bind", "0.0.0.0", "--baseURL", "http://localhost:1313"] 

@@ -14,14 +14,15 @@ tag = 'tags'
 description = "Exploring the world of miniatures."
 
 # Appearance settings
-theme = 'auto'
+theme = 'light'
 colorPalette = 'default'
 hideHeader = false
+footerContent = "© Maple Minis 2025"
 
 # Intro on main page, content is markdown
 homeIntroTitle = 'Hello!'
 homeIntroContent = """
-I like to paint miniatures, sometimes I like to try my hand at creating them as well - I thought I'd share my journey here
+I like to paint, play and sometimes create miniatures. I thought I'd document my progress, learnings, thoughts and feelings. Thanks for stopping by!
 """
 
 # Collection to display on home

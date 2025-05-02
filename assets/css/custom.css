@@ -1,0 +1,17 @@
+:root {
+    --hx-font-size: 1em;
+}
+
+.header p {
+    font-weight: 700;
+    font-family: inherit;
+    text-transform: capitalize;
+}
+
+.header p a {
+    text-decoration: none;
+}
+
+.header-title {
+    font-size: 1em;
+}

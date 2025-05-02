@@ -1,6 +1,7 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-AU'
 title = 'MapleMinis'
+publishDir = "docs"
 
 # Google analytics code
 googleAnalytics = "G-xxxxxxxxx"

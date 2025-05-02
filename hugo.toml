@@ -1,0 +1,52 @@
+baseURL = 'http://localhost:1313/'
+languageCode = 'en-us'
+title = 'My Hugo Blog'
+theme = 'typo'
+
+[params]
+# Meta description
+description = "My personal blog built with Hugo and Typo theme"
+
+# Appearance settings
+theme = 'auto'
+colorPalette = 'default'
+hideHeader = false
+
+# Intro on main page
+homeIntroTitle = 'Welcome!'
+homeIntroContent = """
+This is my personal blog built with Hugo and the Typo theme.
+"""
+
+# Collection to display on home
+homeCollectionTitle = 'Posts'
+homeCollection = 'posts'
+
+# Lists parameters
+paginationSize = 10
+listSummaries = true
+listDateFormat = '2 Jan 2006'
+
+# Breadcrumbs
+[params.breadcrumbs]
+enabled = true
+showCurrentPage = true
+home = "Home"
+
+# Main menu pages
+[[params.menu]]
+name = "home"
+url = "/"
+
+[[params.menu]]
+name = "posts"
+url = "/posts"
+
+[[params.menu]]
+name = "about"
+url = "/about"
+
+# Syntax highlight on code blocks
+[markup]
+[markup.highlight]
+style = 'algol' 
